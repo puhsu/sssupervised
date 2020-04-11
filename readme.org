@@ -25,6 +25,9 @@ articles:
   which describes problems with commonly used semi-supervised learning
   benchmarks. Most papers mentioned above (UDA, SimCLR, MoCo) use those
   semi-supervised learning benchmark (CIFAR-10 for example).
-
+If you prefer to watch videos (great explanations):
+- [[https://www.youtube.com/watch?v=yhItocvAaq0][Meta Pseudo Labels]], [[https://www.youtube.com/watch?v=-u8Mi57BDIY][UDA]]
+- [[https://www.youtube.com/watch?v=APki8LmdJwY][SimCLR]]
+- [[https://www.youtube.com/watch?v=dMUes74-nYY][Lecture on self-supervised learning (UC Berkeley CS294-158 Deep Unsupervised Learning)]]
 * TODO About the code
 Instructions on running experiments (and short results)
