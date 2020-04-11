@@ -1,0 +1,30 @@
+#+TITLE: [self|semi]-supervised learning experiments
+* Introduction
+This is a repository for my bachelor's thesis on evaluation of semi-supervised
+and self-supervised learning algorithms.
+
+The purpose of this project is to somewhat recreate [[https://arxiv.org/pdf/1804.09170][Realistic Evaluation of Deep
+Semi-Supervised Learning Algorithms]] paper, but with recent (as of 2020)
+state-of-the-art self-supervised and semi-supervised algorithms. I believe this
+is relevant and interesting, because we might be at the break point of achieving
+or surpasing supervised learning methods with self-supervised learning or
+semi-supervised learning (or both). So it is important to evaluate emerging
+algorithms in different settings (as described in aforementioned article about
+semi-supervised learning) along with improving them.
+* Reading list
+To get familiar with self-supervised learning and semi-supervised learning
+algorithms, which will be evaluated in this project I recommend the following
+articles:
+- [[https://arxiv.org/abs/2002.08721][A survey on Semi-, Self- and Unsupervised Techniques in Image Classification]]
+  -- comprehensive survey about SOTA algorithms including consistency regularization,
+  pseudolabeling, contrastive learning (good survey paper)
+- [[https://arxiv.org/abs/1904.12848v4][UDA]], [[https://arxiv.org/abs/2003.10580][Meta Pseudo Labels]] -- two semi-supervised algorithms I plan to use (SOTA in
+  semi-supervised learning today)
+- [[https://arxiv.org/abs/2002.05709][SimCLR]], [[https://arxiv.org/abs/1911.05722][MoCo]] -- two self-supervised algorithms I plan to use.
+- [[https://arxiv.org/abs/1804.09170][Realistic Evaluaiton of Deep Semi-Supervised Learning Algorithms]] -- paper
+  which describes problems with commonly used semi-supervised learning
+  benchmarks. Most papers mentioned above (UDA, SimCLR, MoCo) use those
+  semi-supervised learning benchmark (CIFAR-10 for example).
+
+* TODO About the code
+Instructions on running experiments (and short results)
