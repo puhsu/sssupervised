@@ -1,6 +1,7 @@
 {
-  "selfsemieval": {
+  "sssupervised": {
     "Overview": "/",
-    "module name here": "/core"
+    "Title": "/supervised_baselines",
+    "Pytorch GPU RandAugment": "/randaugment"
   }
 }

@@ -10,9 +10,12 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: module name here
-      url: /core
+      title: Title
+      url: /supervised_baselines
+    - output: web,pdf
+      title: Pytorch GPU RandAugment
+      url: /randaugment
     output: web
-    title: selfsemieval
+    title: sssupervised
   output: web
   title: Sidebar

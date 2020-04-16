@@ -1,12 +1,12 @@
 ---
 
-title: Project name here
+title: [self|semi]-supervised learning experiments
 
 keywords: fastai
 sidebar: home_sidebar
 
-summary: "Summary description here."
-description: "Summary description here."
+summary: "Realistic evaluation of recent state-of-the-art self-supervised learning and semi-supervised learning algorithms"
+description: "Realistic evaluation of recent state-of-the-art self-supervised learning and semi-supervised learning algorithms"
 ---
 <!--
 
@@ -29,7 +29,33 @@ description: "Summary description here."
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This file will become your README and also the index of your documentation.</p>
+<p>This is a repository for my bachelor’s thesis on evaluation of semi-supervised and self-supervised learning algorithms. The purpose of this project is to somewhat recreate <a href="https://arxiv.org/pdf/1804.09170">Realistic Evaluation of Deep Semi-Supervised Learning Algorithms</a> paper, but with recent (as of 2020) state-of-the-art self-supervised and semi-supervised algorithms. I believe this is relevant and interesting, because we might be at the break point of achieving or surpasing supervised learning methods with self-supervised learning or semi-supervised learning (or both). So it is important to evaluate emerging algorithms in different settings (as described in aforementioned article about semi-supervised learning) along with improving them.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Reading-list">Reading list<a class="anchor-link" href="#Reading-list"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>To get familiar with self-supervised learning and semi-supervised learning algorithms, which will be evaluated in this project I recommend the following articles:</p>
+<ul>
+<li><a href="https://arxiv.org/abs/2002.08721">A survey on Semi-, Self- and Unsupervised Techniques in Image Classification</a> – comprehensive survey about SOTA algorithms including consistency regularization, pseudolabeling, contrastive learning (good survey paper)</li>
+<li><a href="https://arxiv.org/abs/1904.12848v4">UDA</a>, <a href="https://arxiv.org/abs/2003.10580">Meta Pseudo Labels</a> – two semi-supervised algorithms I plan to use (SOTA in semi-supervised learning today)</li>
+<li><a href="https://arxiv.org/abs/2002.05709">SimCLR</a>, <a href="https://arxiv.org/abs/1911.05722">MoCo</a> – two self-supervised algorithms I plan to use.</li>
+<li><a href="https://arxiv.org/abs/1804.09170">Realistic Evaluaiton of Deep Semi-Supervised Learning Algorithms</a> – paper which describes problems with commonly used semi-supervised learning benchmarks. Most papers mentioned above (UDA, SimCLR, MoCo) use those semi-supervised learning benchmark (CIFAR-10 for example).</li>
+<li><a href="https://arxiv.org/abs/1910.10699">Contrastive Representation Distilation</a> distilation technique based on contrastive learning. My idea is that it could also work in semi-supervised setting (add cross entropy loss to teacher + distill it's representation on all images)</li>
+</ul>
+<p>If you prefer to watch videos (great explanations):</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=yhItocvAaq0">Meta Pseudo Labels</a>, <a href="https://www.youtube.com/watch?v=-u8Mi57BDIY">UDA</a></li>
+<li><a href="https://www.youtube.com/watch?v=APki8LmdJwY">SimCLR</a></li>
+<li><a href="https://www.youtube.com/watch?v=dMUes74-nYY">Lecture</a> on self-supervised learning (UC Berkeley CS294-158 Deep Unsupervised Learning)</li>
+</ul>
 
 </div>
 </div>
@@ -42,57 +68,25 @@ description: "Summary description here."
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><code>pip install your_project_name</code></p>
+<p>To install clone this repository and run:</p>
+<p><code>pip install -e .</code></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="How-to-use">How to use<a class="anchor-link" href="#How-to-use"> </a></h2>
+<h2 id="Code">Code<a class="anchor-link" href="#Code"> </a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Fill me in please! Don't forget code examples:</p>
+<p>Reproducing UDA results in pytorch</p>
 
 </div>
 </div>
 </div>
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="mi">1</span><span class="o">+</span><span class="mi">1</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>2</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
 </div>
  
 

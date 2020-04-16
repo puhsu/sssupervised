@@ -7,5 +7,6 @@ tmp/
 *.egg
 build
 htmlcov
+.ipynb_checkpoints
 
 papers
