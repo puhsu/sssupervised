@@ -13,7 +13,7 @@ entries:
       title: Title
       url: /supervised_baselines
     - output: web,pdf
-      title: Pytorch GPU RandAugment
+      title: Fastai implementation of RandAugment
       url: /randaugment
     output: web
     title: sssupervised

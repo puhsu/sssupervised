@@ -3,9 +3,30 @@
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"get_overlap": "00_cifar.ipynb",
-         "CifarFactory": "00_cifar.ipynb"}
+         "CifarFactory": "00_cifar.ipynb",
+         "float_parameter": "01_randaugment.ipynb",
+         "int_parameter": "01_randaugment.ipynb",
+         "PARAMETER_MAX": "01_randaugment.ipynb",
+         "flip_lr": "01_randaugment.ipynb",
+         "flip_ud": "01_randaugment.ipynb",
+         "rotate": "01_randaugment.ipynb",
+         "scale": "01_randaugment.ipynb",
+         "shift": "01_randaugment.ipynb",
+         "cutout": "01_randaugment.ipynb",
+         "find_coeffs": "01_randaugment.ipynb",
+         "perspective": "01_randaugment.ipynb",
+         "invert": "01_randaugment.ipynb",
+         "equalize": "01_randaugment.ipynb",
+         "posterize": "01_randaugment.ipynb",
+         "contrast": "01_randaugment.ipynb",
+         "color": "01_randaugment.ipynb",
+         "brightness": "01_randaugment.ipynb",
+         "sharpness": "01_randaugment.ipynb",
+         "ALL_TRANSFORMS": "01_randaugment.ipynb",
+         "RandAugment": "01_randaugment.ipynb"}
 
-modules = ["cifar_utils.py"]
+modules = ["cifar_utils.py",
+           "randaugment.py"]
 
 doc_url = "https://puhsu.github.io/sssupervised/"
 
